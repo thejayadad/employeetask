@@ -11,7 +11,6 @@ const DashLayout = () => {
     <>
 
     <div className='dash-container'>
-        <DashHeader />
         <Sidebar />
         <Outlet />
         <DashFooter />
