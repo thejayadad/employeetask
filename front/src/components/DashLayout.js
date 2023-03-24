@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import DashHeader from './Dashboard/DashHeader'
 import DashFooter from './Dashboard/DashFooter'
-import Sidebar from './sidebar/Sidebar'
+import Sidebars  from './sidebar/Sidebars'
 
 
 const DashLayout = () => {
@@ -11,7 +11,8 @@ const DashLayout = () => {
     <>
 
     <div className='dash-container'>
-        <Sidebar />
+      <DashHeader />
+        <Sidebars />
         <Outlet />
         <DashFooter />
     </div>
