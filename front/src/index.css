@@ -34,3 +34,8 @@ html {
   ::-webkit-scrollbar-thumb:hover {
 	background: #555;
   }
+
+  .outlet{
+	margin-left: 80px;
+  margin-top: 80px;
+  }
